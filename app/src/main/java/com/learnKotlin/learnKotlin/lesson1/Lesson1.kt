@@ -4,7 +4,7 @@ class Lesson1 {
     // difference between val and var
     //  difference between float and double
     //  difference between char and string
-    // readLine command
+    // readLine command for example     var n:Double= readln().toDouble() , the readln return the default string
     // $ and ${}
     // kotlin datatype  string,double,float,char for one character ,boolean
     // addition,subtraction,multiplication, conversion type
@@ -22,7 +22,7 @@ class Lesson1 {
         println("the last name$lName")
         println("the age$age")
     }
-    fun getAge(a:Int,b:Int): Unit {
+    private fun getAge(a:Int, b:Int) {
         val result=a+b
         println("the result $result")
 
@@ -31,6 +31,8 @@ class Lesson1 {
         getData()
         getAge(b = 7,a=6)
         getAge(8,9)
+
+
 
     }
 
