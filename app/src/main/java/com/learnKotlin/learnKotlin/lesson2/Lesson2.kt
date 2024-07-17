@@ -12,6 +12,21 @@ import java.util.Calendar
 // if else statement
 // if else if  statement
 // Logical operator OR || , AND &&,  NOT !
+//When
+val obj = "Hello"
+
+//when (obj) {
+//    // Checks whether obj equals to "1"
+//    "1" -> println("One")
+//    // Checks whether obj equals to "Hello"
+//    "Hello" -> println("Greeting")
+//    // Default statement
+//    else -> println("Unknown")
+//}
+
+// Greeting
+//Use when when you have a conditional expression with multiple branches.
+//when can be used either as a statement or as an expression.
 // when expression as switch  case in java for example   val testNum=4
 //    when (testNum) {
 //        1 -> println("one")
